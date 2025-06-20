@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Matemática</title>
+</head>
+
+<body>
+    <h1>Quiz de Matemática</h1>
+
+    <form id="quizForm">
+        <p>Quanto é 1 + 1?</p>
+        <input type="radio" name="Q1" value="1"> 1
+        <input type="radio" name="Q1" value="2"> 2
+        <input type="radio" name="Q1" value="3"> 3
+        <input type="radio" name="Q1" value="4"> 4
+        <p id="resultado1"></p>
+
+        <p>Quanto é 6 x 2?</p>
+        <input type="radio" name="Q2" value="8"> 8
+        <input type="radio" name="Q2" value="10"> 10
+        <input type="radio" name="Q2" value="12"> 12
+        <input type="radio" name="Q2" value="14"> 14
+        <p id="resultado2"></p>
+
+        <p>Quanto é 10 - 5?</p>
+        <input type="radio" name="Q3" value="2"> 2
+        <input type="radio" name="Q3" value="3"> 3
+        <input type="radio" name="Q3" value="4"> 4
+        <input type="radio" name="Q3" value="5"> 5
+        <p id="resultado3"></p>
+
+        <br>
+        <button type="button" onclick="verificarResposta()">Enviar</button>
+    </form>
+
+    <script src="mat.js"></script>
+</body>
+
+</html>
